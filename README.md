@@ -1,5 +1,5 @@
 # Ziper
-😈 - Simple Bruteforce for Zip-file with password
+😈 - Simple Bruteforce for Zip-file with password.
 
 <h1 align="center">ZIPER</h1>
 
