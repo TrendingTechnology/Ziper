@@ -74,7 +74,6 @@ class Ziper():
         os.system('cls')
         Ziper().brand()
         c_t = time()
-        zip_ = zipfile.ZipFile("test.zip")
         characters = string.printable
 
         def iter_all_strings():
@@ -88,7 +87,7 @@ class Ziper():
             try:
                 password = bytes(s, 'utf-8')
                 print(f"  Attempting pass => {Fore.GREEN}{password}{Fore.RESET}", end='\r')
-                zp = zip_
+                zp = self.zip_
                 zp.extractall(pwd=password)
                 t_t = time() - c_t
                 password = str(password, 'utf-8')
